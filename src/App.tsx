@@ -47,7 +47,7 @@ function App() {
     { name: 'Nishtha Dubey', role: 'Research Team', image: '/Nishtha.jpeg', quote: 'Data tells stories, research reveals truths' },
     
     // Tech Team
-    { name: 'Namrata Aggarwal', role: 'Tech Team', image: '/Namrata.jpeg', quote: 'Code is poetry written in logic' },
+    { name: 'Namrata Agarwal', role: 'Tech Team', image: '/Namrata.jpeg', quote: 'Code is poetry written in logic' },
     { name: 'Dhruv Saxena', role: 'Tech Team', image: '/Dhruv Saxena.jpg', quote: 'Building tomorrow\'s solutions today' },
     
     // Social Media Team
