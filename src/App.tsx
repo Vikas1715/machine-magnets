@@ -595,7 +595,7 @@ function App() {
           <div className="flex items-center justify-center mb-6">
             <div className="w-10 h-10 bg-gradient-to-r from-red-600 to-red-700 rounded-full flex items-center justify-center mr-3">
               <img 
-                src="/src/Club logo.jpeg" 
+                src="/Club logo.jpeg" 
                 alt="Machine Magnets Logo"
                 className="w-8 h-8 rounded-full object-cover"
                 onError={(e) => {
