@@ -118,7 +118,7 @@ function App() {
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-r from-red-600 to-red-700 rounded-full flex items-center justify-center">
                 <img 
-                  src="/src/Club logo.jpeg" 
+                  src="/Club logo.jpeg" 
                   alt="Machine Magnets Logo"
                   className="w-8 h-8 rounded-full object-cover"
                   onError={(e) => {
@@ -150,7 +150,7 @@ function App() {
             <div className="hidden md:flex items-center">
               <div className="w-28 h-12 rounded-lg flex items-center justify-center shadow-md border border-gray-200">
                 <img 
-                  src="/src/image.png" 
+                  src="/image.png" 
                   alt="NIET Logo"
                   className="w-24 h-10 object-contain"
                   style={{ filter: 'none' }}
@@ -489,7 +489,7 @@ function App() {
               </div>
               <p className="text-gray-600 mb-4">Successfully launched our AI/ML community with great enthusiasm!</p>
               <div className={`grid grid-cols-2 md:grid-cols-3 gap-4 mt-6 ${!showAllUdbhavPhotos ? 'max-h-64 overflow-hidden' : ''}`}>
-                {['/src/udhbav-1.png', '/src/udhbav-2.png', '/src/udhbav-3.png', '/src/udhbav-4.png', '/src/udhbav-5.png', '/src/udhbav-6.jpeg']
+                {['/udhbav-1.png', '/udhbav-2.png', '/udhbav-3.png', '/udhbav-4.png', '/udhbav-5.png', '/udhbav-6.jpeg']
                   .slice(0, showAllUdbhavPhotos ? undefined : 3)
                   .map((img, idx) => (
                   <div key={idx} className="aspect-square rounded-lg overflow-hidden shadow-md">
@@ -516,7 +516,7 @@ function App() {
               </div>
               <p className="text-gray-600 mb-4">A heartfelt farewell celebrating the journey and achievements of our graduating members!</p>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-6">
-                {['/src/farewell-1.png', '/src/farewell-2.png', '/src/farewell-3.png'].map((img, idx) => (
+                {['/farewell-1.png', '/farewell-2.png', '/farewell-3.png'].map((img, idx) => (
                   <div key={idx} className="aspect-square rounded-lg overflow-hidden shadow-md">
                     <img src={img} alt={`Farewell ${idx + 1}`} className="w-full h-full object-cover hover:scale-110 transition-transform duration-300" />
                   </div>
